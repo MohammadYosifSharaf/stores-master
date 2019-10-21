@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/quantity_picker_message"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <ml.dukan.stores.CustomViews.TextViewSquared
+            android:layout_width="wrap_content"
+            android:text="-"
+            android:textSize="20sp"
+            android:background="@drawable/inc_dec_background"
+            app:square_mode="true"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="#8f8f8f"
+            android:id="@+id/dialog_quantity_minus"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="21"
+            android:maxLines="1"
+            android:background="#f2f2f2"
+            android:textColor="#8f8f8f"
+            android:gravity="center"
+            android:padding="10dp"
+            android:id="@+id/dialog_quantity_tv"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+
+        <ml.dukan.stores.CustomViews.TextViewSquared
+            android:layout_width="wrap_content"
+            android:text="+"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:background="@drawable/inc_dec_background"
+            android:rotation="180"
+            app:square_mode="true"
+            android:gravity="center"
+            android:textColor="#8f8f8f"
+            android:id="@+id/dialog_quantity_plus"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/dialog_quantity_confirm"
+        android:clickable="true"
+        android:padding="10dp"
+        android:background="@drawable/rounded_blue_layout"
+        android:text="@string/confirm_title"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

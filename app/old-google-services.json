@@ -1,0 +1,100 @@
+{
+  "project_info": {
+    "project_number": "970171864015",
+    "firebase_url": "https://dukan-inc.firebaseio.com",
+    "project_id": "dukan-inc",
+    "storage_bucket": "dukan-inc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970171864015:android:c417179b2d222989",
+        "android_client_info": {
+          "package_name": "ml.dukan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970171864015-ogroktkjomo0hi0bgrht0ta747krt66m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ml.dukan",
+            "certificate_hash": "144a163902ff7efa80b03648310cd4c55c770f53"
+          }
+        },
+        {
+          "client_id": "970171864015-aclu8o95b4mvcrtocvcc7mhuk3aj5pg1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ml.dukan",
+            "certificate_hash": "3424b6e7ea977d7dbb82436822c7be3aabff9757"
+          }
+        },
+        {
+          "client_id": "970171864015-of1lpeqckllnbpearl8skf2j9gt2saeq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGmsvykadKDVL1C9XAd3oz04pVaIzTlUU"
+        },
+        {
+          "current_key": "AIzaSyAwBDn6GE7K1dAfldYxrtaHXFGkgMwv_hU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970171864015-of1lpeqckllnbpearl8skf2j9gt2saeq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970171864015:android:696f1f27bbc51f23",
+        "android_client_info": {
+          "package_name": "ml.dukan.stores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970171864015-of1lpeqckllnbpearl8skf2j9gt2saeq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGmsvykadKDVL1C9XAd3oz04pVaIzTlUU"
+        },
+        {
+          "current_key": "AIzaSyAwBDn6GE7K1dAfldYxrtaHXFGkgMwv_hU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

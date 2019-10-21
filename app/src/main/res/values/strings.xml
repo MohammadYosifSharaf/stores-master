@@ -1,0 +1,269 @@
+<resources>
+    <string name="new_order_notification_title">طلب جديد</string>
+    <string name="new_order_notification_body">لديك طلب جديد من %1$s</string>
+
+    <string name="issue_ping_title">تنبيه</string>
+    <string name="issue_ping_body">أرسل %1$s تنبيه لاستعجال الطلب</string>
+
+    <string name="issue_no_delivery_title">عدم تسليم</string>
+    <string name="issue_no_delivery_body">لم يستلم %1$s طلبه</string>
+
+    <string name="app_name">دكان للمتاجر</string>
+    <string name="store_info_title">معلومات الدكان</string>
+    <string name="store_delivering_info_title">معلومات التوصيل</string>
+    <string name="store_name">اسم الدكان</string>
+    <string name="store_telephone">رقم الهاتف</string>
+    <string name="store_number">رقم الجوال</string>
+
+    <string name="store_driver_number">رقم جوال الموصل</string>
+    <string name="store_picture">صورة الدكان من الخارج</string>
+    <string name="store_location">احداثيات المتجر</string>
+    <string name="store_tradename">السجل التجاري</string>
+    <string name="store_delivering_radius">قطر مساحة التوصيل</string>
+    <string name="store_owner_name">اسم المالك</string>
+    <string name="enter_code_message">أدخل الرمز المرسل على الرقم $1%s\n المكون من 6 خانات</string>
+    <string name="confirm_title">تأكيد</string>
+    <string name="close_title">اغلاق</string>
+    <string name="add_hint">أضف تلميح</string>
+    <string name="address_title">عنوان المتجر:</string>
+    <string name="price_msg">%1$.2f ريال</string>
+    <string name="debt_type">دين</string>
+    <string name="cash_type">نقد</string>
+    <string name="total_msg">المجموع:</string>
+    <string name="register_title">تسجيل</string>
+    <string name="alternative_search_hint">ابحث عن بديل...</string>
+    <string name="search_hint">ابحث...</string>
+    <string name="today">اليوم</string>
+    <string name="yesterday">الأمس</string>
+    <string name="address_msg">العنوان: &lt;b>%1$s &lt;/b></string>
+    <string name="has_veg_cb">المتجر يوفر خضروات وفواكه</string>
+    <string name="takes_tax_cb">يفرض المتجر ضريبة على السلع حاليًا</string>
+    <string name="taxWarning">إذا كان المتجر سوف يفرض الضريبة لاحقًا، بإمكانك تتغير القرار في ذلك الحين عن طريق إعدادات التطبيق.</string>
+    <string name="show_invoices">عرض الفواتير</string>
+    <string name="enable_debt_acc">تفعيل الحساب</string>
+    <string name="disable_debt_acc">إيقاف الحساب</string>
+    <string name="pay_total">سداد بالكامل</string>
+    <string name="pay_partial">سداد جزئي</string>
+    <string name="invoice_total">الإجمالي: %1$.2f</string>
+    <string name="change_product">اعتماد</string>
+    <string name="product_not_exist">المنتج غير متوفر</string>
+    <string name="discount">خصم %1$.2f ريال</string>
+    <string name="payment_type_msg">
+&lt;font color=\"#000000\">
+طريقة الدفع:
+&lt;/font>
+&lt;font color=\"#f99f18\">
+%1$s
+&lt;/font>
+    </string>
+    <string name="colored_total">
+&lt;font color=\"#000000\">
+المجموع:
+&lt;/font>
+        &lt;b>
+&lt;font color=\"#f51a3f\">
+%1$.2f ريال
+&lt;/font>
+&lt;/b></string>
+    <string name="note_title">
+&lt;b>
+ملاحظة:
+&lt;/b>
+ %1$s</string>
+
+    <string name="invoice_details">
+اجمالي الدين:
+        &lt;b>
+%1$.2f ريال
+&lt;/b>
+        &lt;br>
+المبلغ المدفوع:
+        &lt;b>
+%2$.2f ريال
+&lt;/b>
+                &lt;br>
+المتبقي:
+        &lt;b>
+%3$.2f ريال
+&lt;/b>
+&lt;/b>
+    </string>
+
+    <string name="delivery_duration_title">
+        &lt;b>
+سرعة الاستجابة:
+&lt;/b>
+%1$d
+        دقيقة
+    </string>
+
+    <string name="no_delivery_duration_title">
+        &lt;b>
+سرعة الاستجابة:
+&lt;/b>
+غير معروف
+    </string>
+
+    <string name="menu_sign_out">تسجيل الخروج</string>
+    <string name="menu_debt_management">سجلات الديون</string>
+    <string name="menu_debt_acc_management">إدارة حسابات الديون</string>
+
+    <string name="amount_title">المبلغ</string>
+    <string name="cancel_title">الغاء</string>
+    <string name="pay_title">دفع</string>
+    <string name="pay_total_content">هل أنت متأكد من رغبتك في دفع كامل المبلغ واغلاق الفاتورة؟ لن يمكنك التراجع بعد ذلك!</string>
+    <string name="no_connection">لا يوجد اتصال بالانترنت</string>
+
+    <string name="send">ارسال</string>
+    <string name="feed_back_thank_title">شكرًا لك</string>
+    <string name="feed_back_title">زودنا بملاحظتك واقتراحاتك!</string>
+    <string name="statistics_title">إحصائيات</string>
+    <string name="change_prices_title">تعديل المنتجات</string>
+    <string name="uavailable_products">المنتجات غير المتوفرة</string>
+
+    <string name="statistics">
+        عدد الطلبات الموصلة: %1$d
+\n
+عدد الطلبات الملغية: %2$d
+\n
+إجمالي الطلبات: %3$d
+\n
+ إجمالي المبالغ: %4$.2f ريال
+    </string>
+
+    <string name="how_far_msg">على بعد %1$d متر</string>
+    <string name="tab_fresh">طلبات جديدة</string>
+    <string name="tab_processing">طلبات معلقة</string>
+    <string name="tab_delivered">طلبات منتهية</string>
+    <string name="selected_available">الرجاء الضغط على المنتجات غير المتوفرة</string>
+    <string name="quantity_picker_message">الرجاء تحديد الكمية المتوفرة</string>
+    <string name="customer_confirmed">تمت الموافقة على التعديلات نرجوا توصيل الطلب في اسرع وقت</string>
+    <string name="deliver_order">توصيل</string>
+    <string name="order_accept">قبول الطلب</string>
+    <string name="order_adjusted">ارسال التعديلات</string>
+    <string name="order_delivered">تم التسليم</string>
+    <string name="wating_approval">بانتظار الموافقة</string>
+    <string name="order_decline">رفض الطلب</string>
+    <string name="share_whatsapp">مشاركة المعلومات على الواتس اب</string>
+    <string name="notify_change_title">تنبيه</string>
+    <string name="notify_change_msg">تم إعلام الزبون بالمنتجات والكميات غير المتوفرة.</string>
+
+    <string name="accept_title">تمت الموافقة</string>
+    <string name="accept_msg">تم إعلام الزبون بالموافقة، نرجوا توصيل الطلب في أقرب وقت.</string>
+
+    <string name="locate_store">حدد موقع الدكان</string>
+
+    <string name="missing_location">يرجى تحديد موقع الدكان</string>
+    <string name="missing_name">يرجى كتابة اسم الدكان</string>
+    <string name="missing_number">يرجى كتابة رقم الجوال</string>
+    <string name="missing_photo">يرجى ارفاق صورة للدكان</string>
+
+    <string name="duration_title">الوقت المتوقع: %s</string>
+    <string name="distance_title">يبعد: %1$.2f كم</string>
+
+    <string name="alternative_dialog_title">تأكيد تبديل</string>
+    <string name="alternative_dialog_content">هل تريد تبديل المنتج الأول بالأخير؟</string>
+
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <string name="durationTitle">وقت التوصيل المتوقع</string>
+    <string name="order_fresh_customer_info">
+        الاسم: %1$s\n
+رقم الجوال: %2$s\n
+العنوان: %3$s
+    </string>
+    <string name="order_show_items">عرض التفاصيل</string>
+    <string name="order_browser_item_information">
+        %1$s \n
+الكمية: %2$d\n
+السعر: %3$.2f
+    </string>
+
+    <string name="add_note">اضافة ملاحظة</string>
+
+    <string name="market_not_exit_title">الحساب غير مسجل</string>
+    <string name="market_not_exit_content">نعتذر عن ما حصل، هل تريد تسجيل حساب جديد؟</string>
+    <string name="login_message">نرجو اختيار احدى طرق تسجيل الدخول</string>
+    <string name="register_message">نرجو اختيار احدى طرق التسجيل</string>
+    <string name="via_phone_number">عن طريق رقم الجوال</string>
+
+    <string name="empty_fresh_orders">لا توجد طلبات جديدة</string>
+    <string name="empty_processing_orders">لا توجد طلبات معلقة</string>
+    <string name="empty_debt">لا توجد سجلات ديون</string>
+
+    <string name="paid_title">مدفوعة</string>
+
+    <string name="alert_reject_title">سبب الرفض</string>
+    <string name="alert_reject_content">نرجوا تزويد الزبون بسبب مقنع لرفض الطلب</string>
+
+
+    <string name="already_exist_title">الحساب موجود مسبقًا</string>
+    <string name="already_exist_content">نعتذر عن ما حصل، هل أنت %1$s؟ إن كنت كذلك هل تود الدخول بهذا المعرف؟</string>
+
+    <string name="request_debt_account_title">طلب حساب دين</string>
+    <string name="request_debt_account_content">يريد
+&lt;b>%1$s&lt;/b>
+فتح حساب دين لديكم
+&lt;br>العنوان: &lt;b>%2$s&lt;/b>
+&lt;br>رقم الجوال: &lt;b>%3$s&lt;/b></string>
+
+    <string name="accept_account">قبول</string>
+    <string name="reject_account">رفض</string>
+    <string name="add">إضافة</string>
+
+    <string-array name="durations">
+        <item>10 دقائق</item>
+        <item>15 دقيقة</item>
+        <item>30 دقيقة</item>
+        <item>ساعة</item>
+    </string-array>
+    
+    <string name="order_browser_invoice_information">
+        المجموع: %1$.2f ريال\n
+عدد الأصناف: %2$d \n
+الكمية: %3$d
+    </string>
+
+
+    <string-array name="categories">
+        <item>الطازج والمخبوزات</item>
+        <item>المواد الغذائية</item>
+        <item>المشروبات والمياه</item>
+        <item>المجمدات</item>
+        <item>تسالي</item>
+        <item>الصحة والجمال</item>
+        <item>العناية بالطفل</item>
+        <item>غذاء الطفل</item>
+        <item>الخضروات والفواكه</item>
+        <item>العناية بالمنزل</item>
+    </string-array>
+
+
+
+    <string name="verify_phone_number_title" translation_description="Phone number entry form title">زودنا برقم جوالك</string>
+    <string name="invalid_phone_number" translation_description="Inline error when phone number entered is invalid">تأكد من كتابة رقمك بشكل صحيح</string>
+    <string name="enter_confirmation_code" translation_description="Phone number verification code entry form title">أدخل رقم التحقق المكون من 6 خانات المرسل للرقم</string>
+    <string name="resend_code_in" translation_description="Countdown timer text that the user needs to wait for before attempting to resend verification sms">أعد الإرسال 0:%02d</string>
+    <string name="verify_your_phone_title" translation_description="Button text to complete phone number verification">تحقق من الرقم</string>
+    <string name="verifying" translation_description="Progress dialog text while phone number is being verified">جار التحقق …</string>
+    <string name="retrieving_sms" translation_description="Progress dialog text when sms is being retrieved before auto-submit">قراءة الرسالة …</string>
+    <string name="incorrect_code_dialog_body" translation_description="Inline error when incorrect sms verification code is being used to verify">الرقم خاطئ. حاول مجددًا</string>
+    <string name="incorrect_code_dialog_positive_button_text" translation_description="Text to dismiss error alert dialog">حسنا</string>
+    <string name="error_too_many_attempts" translation_description="Error message when the phone number has been used too many times">تم تجاوز الحد لاستخدام هذا الرقم</string>
+    <string name="error_quota_exceeded" translation_description="Error message when the Firebase project's quota has been exceeded.">نأسف، ثمة مشكلة في التحقق</string>
+    <string name="error_session_expired" translation_description="Error message when SMS confirmation code has expired.">لم يعد رقم التحقق صالحًا</string>
+    <string name="sign_in_with_phone_number" translation_description="Label for phone number input form">سجل الدخول برقم جوالك</string>
+    <string name="done" translation_description="Progress dialog success transition once sms is sent">تم</string>
+    <string name="verified" translation_description="Progress dialog success transition when phone number was verified">تم التحقق!</string>
+    <string name="code_sent" translation_description="Progress dialog success transition once sms is sent">تم إرسال رقم التحقق!</string>
+    <string name="resending" translation_description="Progress dialog text when user clicks on resend sms">جار الإرسال …</string>
+    <string name="resend_code" translation_description="Link text to resend verification sms">أعد الإرسال</string>
+    <string name="verify_phone_number" translation_description="Button text to submit confirmation code and complete phone verification">تحقق من الرقم</string>
+    <string name="continue_phone_login" translation_description="Button text to submit phone number and send sms">متابعة</string>
+    <string name="sms_terms_of_service" translation_description="Fine print warning displayed below Verify Phone Number button">بالضغط على &#8220;%1$s&#8220;، سوف يتم إرسال رسالة SMS تحمل رقم التحقق مكونًا من 6 خانات.</string>
+    <string name="number_verfication_warning">* سوف يتم ارسال رسالة SMS للتفعيل على رقم الجوال، أرجو تزويدنا بالرقم الصحيح.</string>
+
+</resources>
